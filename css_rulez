@@ -1,0 +1,15 @@
+-Nombrar a las clases/IDs según su función, no su apariencia.
+--clases del tipo .centered, .red...  te encontrarás con que cuando toque cambiar el color o la alineación de contenidos, tendrás que ir modificando las clases de cada elemento... X.X ¡¿Dónde están entonces las ventajas de gestionar el diseño desde una hoja de estilos?!
+-Definir las pseudoclases para enlaces en el orden LoVe/HAte.
+-Si declaras una unidad de 0 px/em/%/… puedes omitir la unidad.
+-Mantener contenedores, propiedades, selectores y CSS Hacks al mínimo.
+-Comentar el código.(Cuando algo no puede entenserse por si solo)
+-Organización de ficheros
+-Cambiar la capitalización con CSS. (Capitalizar CSS es un estilo y debe ser CSS no más javascript ¬¬)
+-No copy - paste importa código (Reutilización)
+-Utiliza la web devoloper toolbar de Firefox.
+-La opción más simple es sólo incluir el valor del color en cada regla que quieras y usar Buscar y Reemplazar cuando quieras cambiarlos. Esto es trivial cuando utilizas un buen editor de texto.
+COLOR_ROJO_DISMAYOR = #bn4t8nt48;
+-Puedes ofrecer diseños “customizables” dinámicamente creando ficheros CSS con PHP. (aplica a temporadas mamá, navidad, etc)
+-Puedes usar parámetros en la llamada a tu CSS para mantener el control sobre la caché del navegador, y decidir cuándo debe expirar tu hoja de estilos o forzar a tus usuarios a descargarla de nuevo en su siguiente visita.
+<link rel="stylesheet" type="text/css" href="styles/cristalab.css?update=12102006" media="screen" />
